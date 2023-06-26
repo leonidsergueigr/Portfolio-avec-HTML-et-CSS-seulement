@@ -52,6 +52,9 @@ header{
 .navlist a:hover{
     color: var(--main-color);
 }
+.navlist a:active{
+    color:var(--main-color)
+}
 #menu-icon{
     font-size: 35px;
     color: var(--text-color);
@@ -60,3 +63,76 @@ header{
     margin-left: 25px;
     display: none;
 }
+section{
+    padding: 168px 15% 120px;
+}
+.accueil{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.subtitle{
+    margin-bottom: 20px;    
+}
+.subtitle span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.accueil-text h1{
+    font-size: var(--big-font);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 8px;
+}
+.accueil-text h3{
+    margin: 0 0 35px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.accueil-text h3 span{
+    color: var(--main-color);
+}
+.button{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    padding: 12px;
+    background: var(--main-color);
+    border-radius: 20px;
+    color: var(--bg-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all .45s ease;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+.socials{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.socials .social-item {
+    display: block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff7a57;
+    color: #ff7a57;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
