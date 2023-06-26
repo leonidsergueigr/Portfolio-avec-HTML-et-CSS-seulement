@@ -352,9 +352,18 @@ p{
     font-size: 16px;
     background: var(--main-color);
     color: #ffffff;
-    transition: all .45 ease;
+    transition: all .45s ease;
 }
 .contact-form .submit:hover{
-    transform: scale(1,1);
+    transform: scale(1.1);
     cursor: pointer;
+}
+@media (max-width:140px) {
+    header{
+        padding: 12px 2.5%;
+        transition:.1s;
+    }
+    section{
+        padding: 110px 3% 60px;
+    }
 }
