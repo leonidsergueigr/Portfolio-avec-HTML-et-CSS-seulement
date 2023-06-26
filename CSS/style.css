@@ -152,20 +152,92 @@ span{
     height: auto;
     width: 100%;
 }
-.about-text h2{
+h2{
     font-size: var(--h2-font);
     line-height: 1;
 }
-.about-text h4{
+h4{
     font-size: 24px;
     font-weight: 600;
     color: var(--text-color);
     line-height: 1.7;
-    margin: 15px 0 30px;
+    margin: 0;
 
 }
-.about-text p{
+p{
     font-size: var(--p-font);
     line-height: 1.8;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+  
+#pythonBar {
+    width: 90%;
+    height: 30px;
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.col{
+    width: 100%;
+}
+.skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+.val {
+    float: right;
+    font-style: normal;
+}
+#phpBar {
+    width: 80%;
+    height: 30px;
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#htmlBar {
+    width: 95%;
+    height: 30px;
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#cssBar {
+    width: 50%;
+    height: 30px;
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 30px;
+    color: white;
 }
